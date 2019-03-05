@@ -1,0 +1,354 @@
+.ilgen-notification{
+    margin: 0.5em 0 1em 0;
+    padding: 5px;
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    color: #8a6d3b;
+    font-style: italic;
+}
+.ilgen-notification h5{
+    font-style: normal;
+    margin: 0 0 0.25em 0;
+    font-size: 0.875em;
+    text-transform: uppercase;
+}
+.ilgen-ajax-res{
+    display: none;
+}
+
+.ilgen-narrow{
+    width: 100px !important;
+    text-align: center;
+}
+
+.ilgen .nav-tab{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ilgen .nav-tab-active{
+    background: #fff;
+    border-bottom:1px solid #fff;
+}
+.ilgen .nav-tab:first-child{
+    margin-left: 0 !important;
+}
+.ilgen h3.nav-tab-wrapper{
+    margin: 1em 0 0 0;
+    padding-left: 0;
+    border-bottom: 1px solid transparent;
+}
+.ilgen > h2{
+    display: block;
+    margin-bottom: 1em;
+}
+.ilgen .settings-inner{
+    max-width: 300px;
+}
+.ilgen .settings-inner input[type="text"],
+.ilgen .settings-inner input[type="password"]{
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+.ilgen .container{
+    background: #fff;
+    margin: -1px 0 0 0;
+    border: 1px solid #ccc;
+    padding: 1em;
+    min-height: 480px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ilgen .container textarea,
+.ilgen .container input[type="text"]{
+    width: 100%;
+}
+.ilgen .container.asearch input[type="text"]{
+    width: inherit;
+}
+.ilgen .container.asearch table input[type="text"]{
+    width: 100%;
+}
+.ilgen .container table{
+    width:100%;
+    border: 1px solid #e1e1e1;
+}
+.ilgen .container.grabb table,
+.ilgen .container.keywords table{
+    border: none;
+}
+.ilgen .container table thead th{
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+}
+.ilgen .container table tbody tr:nth-child(2n-1) td,
+.ilgen .container table tbody tr:nth-child(2n-1) td input[type="text"]{
+    background: #f1f2f1;
+}
+.ilgen .container tr td{
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 5px;
+}
+.ilgen .container table tbody tr td:last-child{
+    border-right: none;
+    width: auto;
+    text-align: left;
+}
+.ilgen .container.keywords table tbody tr td:last-child,
+.ilgen .container.links table tbody tr td:last-child,
+.ilgen .container.asearch table tbody tr td:last-child{
+    width:80px ; 
+    text-align:center;
+}
+
+.ilgen .container table tbody tr td:first-child{
+    text-align: center;
+}
+.ilgen .container table tbody tr:last-child td{
+    border-bottom: none;
+}
+.ilgen .container table .selection{
+    width: 80px;
+    line-height: 24px;
+    height: 24px;
+    padding: 0;
+}
+.ilgen .container table .heading{
+    background: #e5e5e5 !important;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ilgen .container table.ilgen-nostyle tr td,
+.ilgen .container table.ilgen-nostyle tr td input[type="text"]{
+    background: #fff !important;
+}
+
+.ilgen .container input[type="checkbox"]{
+    margin:0 !important;
+}
+.ilgen .container h4{
+    text-transform: uppercase;
+}
+.ilgen .container input[disabled]{
+    color: #32373c;
+}
+
+.ilgen .button-danger{
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.ilgen .box{
+    margin: 0 0 0.25em 0;
+    border: 1px solid #ccc;
+}
+.ilgen .keywords .box{
+    margin: 4px 0 0 0;
+}
+.ilgen .box > h4{
+    margin:0;
+    padding: 7px 10px;
+    background: #e4e4e4;
+    text-transform: inherit;
+    position: relative;
+}
+.ilgen .box > h4 > span{
+    width:22px;
+    height:22px;
+    display: inline-block;
+    border-radius:11px;
+    background-color: #fff;
+    background-image: url('../images/arrows.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-x: 50%;
+    border:1px solid #ccc;
+    vertical-align: middle;
+    float:right;
+    margin-top:-3px;
+    
+}
+.ilgen .box > h4.closed > span{
+    background-position-y: 100%;
+}
+.ilgen .box > h4.opened > span{
+    background-position-y: 0;
+}
+.ilgen .box > h4 > span.plus{
+    background-image: url('../images/plus.png');
+}
+.ilgen .box > h4 > i{
+    position: absolute;
+    right: 60px;
+    margin: 0;
+}
+.ilgen .box .box-inner { 
+   display: none;
+   padding: 10px;
+   overflow: hidden;
+}
+.ilgen .grabb-inner,
+.ilgen .keywords-inner{
+    max-height: 480px;
+    overflow-y: auto;
+    border: 1px solid #e1e1e1;
+}
+.ilgen form.additional,
+.ilgen .keywords .box .button{
+    margin:0 !important;
+}
+.ilgen .tablenav{
+    background: #e4e4e4;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+.ilgen .tablenav .actions{
+    padding:0;
+}
+ 
+.ilgen .tablenav .actions input[type="submit"]{
+    margin: 1px 0 0 -4px;
+}
+
+.ilgen .userincr-container{
+    margin-right: 20px;
+}
+
+.ilgen .userincr-btn-dec,
+.ilgen .userincr-btn-inc{
+    margin: 0 1px 0 0;
+    border: 1px solid #ddd;
+}
+
+.ilgen .top-panel{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0 0 20px 0;
+}
+.ilgen-found{
+    color:#444;
+}
+.ilgen-found.notin{
+    text-decoration: none;
+}
+.ilgen-found.in{
+    text-decoration: underline;
+}
+.ilgen-keyword{
+    font-weight: bolder;
+}
+.ilgen-success{
+    color: #7ad03a;
+}
+.ilgen-failure,
+.ilgen-watch-notification{
+    color: #b94a48;
+}
+.ilgen-watch-notification{
+    display: none;
+    margin-left: 5px;
+    line-height: 28px;
+    background: #f2dede;
+    border: 1px solid #eed3d7;
+    padding: 0 15px;
+    border-radius: 3px;
+}
+.ilgen-button-delete{
+    background: #da4f49 !important;
+    background-image: linear-gradient(to bottom,#ee5f5b,#bd362f) !important;
+    background-repeat: repeat-x;
+    border-color: #bd362f #bd362f #802420 !important;
+    -webkit-box-shadow: inset 0 1px 0 rgba(242,222,222,.5),0 1px 0 rgba(0,0,0,.15) !important;
+    box-shadow: inset 0 1px 0 rgba(242,222,222,.5),0 1px 0 rgba(0,0,0,.15) !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+.ilgen-button-delete:hover{
+    background: #dd605b !important;
+    -webkit-box-shadow: inset 0 1px 0 rgba(242,222,222,.6) !important;
+    box-shadow: inset 0 1px 0 rgba(242,222,222,.6) !important;
+}
+.ilgen .keywords .ilgen-button-delete{
+    display: inline-block !important;
+    margin: 0 !important;
+}
+
+.ilgen-donate{
+    float: right;
+}
+.ilgen-donate img{
+    width: 120px;
+    height: auto;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.ilgen-donate img:hover{
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98); 
+}
+.ilgen .td-arrow{
+    text-align: center;
+}
+#ilgenArrowTo{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+#box_external_links table tbody tr td{
+    text-align: center;
+}
+#box_external_links table tbody tr td:first-child{
+    text-align: left;
+}
+
+.ilgen-edit-post{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: baseline;
+    background: url('../images/edit.png') no-repeat center;
+    background-size: 100%;
+    margin: 0 5px;
+}
+
+.container.stat .tablenav > div{
+    padding: 0 20px;
+}
+.container.stat .tablenav span{
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#lettersNavigation{
+    padding: 3px 0;
+}
+#lettersNavigation button{
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 30px;
+    margin-right: 2px;
+}
+
+.ilgen-loader{
+    height: 28px;
+    width: auto;
+    margin: 0 5px;
+    display: none;
+    vertical-align: bottom;
+}
+
+.ilgen .container table.check-links-table tr th:last-child,
+.ilgen .container table.check-links-table tr td:last-child{
+    width: 80px !important;
+    text-align: center;
+}

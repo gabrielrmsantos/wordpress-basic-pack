@@ -1,0 +1,7 @@
+redirect_from,redirect_to,redirect_type,redirect_from_type,redirect_from_folder_settings,redirect_from_subfolders,redirect_to_type,redirect_to_folder_settings,regex
+/2017/11/15/testing/,http://google.com,301,Page,0,0,Page,0,
+/2017/11/15/hello-world-post-2/,http://ew.prismitsystems.com/dashboard,301,,0,1,,1,
+/blog/2017/11/15/hello-prism/,http://ew.prismitsystems.com/,301,,0,1,,1,
+/blog/2017/11/15/hello-world-prism/,http://google.com,301,Page,0,0,Page,0,
+/blog/2017/11/07/hello-world/,http://ew.prismitsystems.com/,301,,0,1,,1,
+/2017/11/16/hjiiii-world/,http://ew.prismitsystems.com/dashboard,301,,0,1,,1,
